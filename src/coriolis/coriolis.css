@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Roboto-bold';
+    src: url('Roboto-Bold.ttf');
+}
+
+.root {
+    -fx-background-color: white;
+}
+.label {
+    -fx-font-size: 20;
+}
+
+
+.toolbar {
+    -fx-background-color: RGB(35,118,188);
+    -fx-padding: 0 20 0 20;
+}
+
+
+.grid-pane {
+ -fx-background-color: white;
+}
+
+.button-raised{
+    -fx-padding: 0.7em 0.57em;
+    -fx-font-size: 14px;
+    -jfx-button-type: RAISED;
+    -fx-background-color: rgb(255, 255, 255);
+    -fx-pref-width: 200;
+    -fx-text-fill: BLACK;
+}
+
+.hamburger {
+    -fx-pref-height: 25px;
+    -fx-alignment: center;
+}
+
+.hamburger > StackPane {
+    -fx-background-color: white;
+    -fx-pref-height: 3;
+}
+
+.reset-button {
+    -fx-background-image: url(ic_restore_white_24dp_2x.png);
+    -fx-alignment: center;
+    -fx-pref-height: 50px;
+    -fx-pref-width: 35px;
+    -fx-background-size: 35px;
+    -fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 90%;
+    -jfx-button-type: FLAT;
+}
+
+.activity_title {
+    -fx-fill: white;
+    -fx-font-family: 'Roboto', sans-serif;
+    -fx-font-weight: bold;
+    -fx-font-size: 25px;
+    -fx-pref-height: 50px;
+
+}
+
+.title-wrapper {
+    -fx-padding: 0 20 0 20;
+    -fx-alignment: center;
+}
+
+
+.material-label {
+    -fx-font-size: 12pt;
+    -fx-font-family: 'Roboto', sans-serif;
+    -fx-text-fill: #757575;
+}
+
+.control-node-child {
+    -fx-padding: 5px;
+    -fx-row-valignment: center;
+}
+
+.pane-btns {
+    -fx-font-family: 'Roboto', sans-serif;
+    -fx-padding: 0.7em 0.57em;
+    -fx-font-size: 15px;
+    -jfx-button-type: RAISED;
+    -fx-background-color: rgb(220, 68, 58);
+    -fx-pref-width: 250;
+    -fx-text-fill: WHITE;
+}
